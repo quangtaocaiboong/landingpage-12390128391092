@@ -4,6 +4,7 @@ import LandingPage from "./components/LandingPage";
 import AboutUs from "./components/AboutUs";
 import Body from "./components/Body/Body";
 import Introduce from "./components/Introduce";
+import ErrorPage from "./components/ErrorPage";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="ve-chung-toi" element={<AboutUs />} />
         <Route path="gioi-thieu" element={<Introduce />} />
       </Route>
+      <Route path="*" element={<ErrorPage />} />
     </Routes>
   );
 }
