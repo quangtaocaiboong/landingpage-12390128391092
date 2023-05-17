@@ -10,9 +10,9 @@ export default function Footer() {
         <div className="">
           <div className="flex md:block justify-center items-center">
             <img
-              src={logo.fmpBlueBgLogo}
+              src={logo.fmpNoBgBlueTextLogo}
               alt=""
-              className="h-12 rounded-full mt-5"
+              className="h-12 rounded-full my-5"
             />
           </div>
           <div className="flex md:block justify-center items-center">
